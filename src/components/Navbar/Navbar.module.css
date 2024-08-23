@@ -1,0 +1,120 @@
+@media only screen and (max-width: 767px) {
+    body .wrapper {
+        height: 55px;
+        padding: 16px;
+    }
+
+    .wrapper .topPortion .logo {
+        position: absolute;
+        left: 50%;
+        transform: translate(-50%);
+        font-size: 20px;
+        font-weight: 800;
+        line-height: 24.2px;
+    }
+
+    .wrapper .topPortion .left {
+        display: flex;
+        gap: 8px;
+    }
+
+    .wrapper .topPortion .left .logopic:first-child {
+        display: block;
+    }
+
+    .wrapper .topPortion .left .logopic {
+        height: 20.1px;
+        width: 20.1px;
+    }
+
+    .wrapper .topPortion .profile img:nth-child(4) {
+        display: none;
+    }
+
+    .wrapper .topPortion .profile select{
+        display: none;
+    }
+
+    .wrapper .topPortion .profile {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 12px;
+    }
+
+    .wrapper .navlinks {
+        display: none;
+    }
+}
+
+.wrapper {
+    height: 188px;
+    width: 100vw;
+    background: #FFFFFF;
+    padding: 40px 96px 26px 96px;
+    position: relative;
+    border-bottom: 1px solid #E5E5E5;
+}
+
+.topPortion {
+    display: flex;
+    justify-content: space-between;
+}
+
+.topPortion .profile {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 24px;
+}
+
+.topPortion .left .logopic:first-child {
+    display: none;
+}
+
+.topPortion .left .logopic {
+    height: 36px;
+    width: 36px;
+}
+
+.topPortion .logo {
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%);
+    font-size: 36px;
+    font-weight: 800;
+    line-height: 43.57px;
+    letter-spacing: 1px;
+}
+
+.topPortion .profile .profilelogo {
+    height: 24px;
+    width: 24px;
+}
+
+.topPortion .profile select {
+    background: transparent;
+    border: none;
+    font-weight: 700;
+    line-height: 19.2px;
+    cursor: pointer;
+}
+
+.navlinks {
+    position: absolute;
+    bottom: 26px;
+    left: 50%;
+    transform: translate(-50%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 64px;
+}
+
+.navlinks h3 {
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 24px;
+    text-transform: uppercase;
+    cursor: pointer;
+}
