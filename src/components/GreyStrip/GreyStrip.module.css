@@ -1,4 +1,11 @@
-.wrapper{
+@media only screen and (max-width: 600px) {
+    .wrapper .flex:not(:first-child){
+        display: none;
+    }
+}
+
+
+.wrapper {
     height: 32px;
     width: 100vw;
     background: #000000;
@@ -8,14 +15,14 @@
     gap: 20%;
 }
 
-.wrapper .flex{
+.wrapper .flex {
     display: flex;
     justify-content: center;
     align-items: center;
     gap: 10px;
 }
 
-.wrapper .flex p{
+.wrapper .flex p {
     font-size: 12px;
     font-weight: 400;
     line-height: 14.4px;
