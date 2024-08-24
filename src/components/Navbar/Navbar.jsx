@@ -3,7 +3,7 @@ import styles from './Navbar.module.css'
 
 const Navbar = () => {
   return (
-    <div className={styles.wrapper}>
+    <nav className={styles.wrapper}>
       <div className={styles.topPortion}>
         <div className={styles.left}>
           <img src={'/assets/menu.png'} alt="menu" className={styles.logopic}/>
@@ -27,7 +27,7 @@ const Navbar = () => {
           ))
         }
       </div>
-    </div>
+    </nav>
   )
 }
 
