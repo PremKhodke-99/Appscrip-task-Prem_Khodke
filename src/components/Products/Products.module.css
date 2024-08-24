@@ -1,0 +1,131 @@
+@media only screen and (max-width: 767px){
+
+    body .wrapper{
+        padding: 10px;
+    }
+
+    body .wrapper .sort{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 41px;
+    }
+
+    body .wrapper .sort .show{
+        width: 50%;
+        display: block;
+        border-right: 1px solid #888792;
+    }
+
+    body .wrapper .sort .show p:last-child{
+        display: block;
+        text-align: center;
+    }
+
+    .wrapper .sort .show p:not(:last-child){
+        display: none;
+    }
+
+    
+    body .wrapper .bottom .filters{
+        display: none;
+    }
+
+    body .wrapper .products_show, body .wrapper .products_hide{
+        width: 100vw;
+        display: grid;
+        place-items: center;
+        grid-template-columns: repeat(2,1fr);
+        gap: 16px 8px;
+    }
+    
+}
+
+
+.wrapper {
+    width: 100vw;
+    padding-left: 96px;
+    padding-right: 96px;
+}
+
+.wrapper .sort {
+    height: 88px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 1px solid #E5E5E5;
+}
+
+.wrapper .sort .show {
+    display: flex;
+    gap: 80px;
+}
+
+.wrapper .sort .show p:first-child {
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 40px;
+}
+
+.wrapper .sort .show p:nth-child(2) {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 40px;
+    color: #888792;
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.wrapper .sort .show p:last-child{
+    display: none;
+}
+
+.wrapper .sort select {
+    border: none;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 40px;
+    text-transform: uppercase;
+}
+
+.wrapper .sort select option {
+    padding: 10px;
+    /* Padding inside each option */
+    font-size: 16px;
+}
+
+.wrapper .sort select option:checked {
+    /* Background color for the selected option */
+    font-weight: bold;
+}
+
+.wrapper .sort select option::before {
+    content: "✔️ ";
+    /* Check mark symbol */
+    display: none;
+}
+
+.wrapper .sort select option:checked::before {
+    display: blockinline;
+}
+
+.wrapper .bottom{
+    display: flex;
+    margin-top: 36px;
+    margin-bottom: 48px;
+    gap: 16px;
+}
+
+.wrapper .products_show{
+    width: 100vw;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 32px 16px;
+}
+
+.wrapper .products_hide{
+    width: 100vw;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 32px 16px;
+}
