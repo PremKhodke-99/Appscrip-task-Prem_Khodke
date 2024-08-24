@@ -1,0 +1,35 @@
+.wrapper{
+    width: 300px;
+}
+
+.wrapper .checkbox{
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 21.6px;
+    padding-bottom: 26px;
+    border-bottom: 1px solid #E5E5E5;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.wrapper .checkbox input{
+    height: 22px;
+    width: 22px;
+}
+
+
+.wrapper .filter{
+    padding-top: 26px;
+    padding-bottom: 26px;
+    border-bottom: 1px solid #E5E5E5;
+}
+
+.wrapper .filter select{
+    border: none;
+    width: 100%;
+    text-transform: uppercase;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 21.6px;
+}
