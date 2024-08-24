@@ -1,0 +1,244 @@
+@media only screen and (max-width: 767px){
+    body .wrapper{
+        padding: 16px;
+        height: 875px;
+    }
+    body .wrapper .top{
+        display: flex;
+        flex-direction: column;
+        width: 100vw;
+    }
+
+    body .wrapper .top .first{
+        display: flex;
+        flex-direction: column;
+        gap: 16px;
+        width: 100%;
+        padding-bottom: 24px;
+        border-bottom: 1px solid #E5E5E5;
+    }
+
+    body .wrapper .top .first p{
+        font-size: 16px;
+        margin-top: 0;
+        margin-bottom: 0;
+        line-height: 19.2px;
+        font-weight: 400;
+    }
+
+    body .wrapper .top .first .email{
+        width: 100%;
+        display: flex;
+        gap: 16px;
+    }
+
+    body .wrapper .top .first .email input{
+        width: 65%;
+    }
+    body .wrapper .top .first .email button{
+        width: 25%;
+    }
+
+    body .wrapper .top .contact{
+        padding-top: 24px;
+    }
+
+    body .wrapper .top .contact .email{
+        padding-bottom: 24px;
+        border-bottom: 1px solid #E5E5E5;
+    }
+
+    body .wrapper .top .contact .number, body .wrapper .top .contact .para{
+        display: none;
+    }
+
+    body .wrapper .bottom{
+        display: none;
+    }
+
+    body .wrapper .mobile{
+        display: flex;
+        flex-direction: column;
+    }
+
+    body .wrapper .mobile select, body .wrapper .mobile .payment{
+        padding-top: 24px;
+        border: none;
+        padding-bottom: 24px;
+        margin-bottom: 1px solid #FFFFFF;
+        background: transparent;
+        font-size: 16px;
+        font-weight: 700;
+        line-height: 19.2px;
+        color: #FFFFFF
+    }
+
+    body .wrapper .mobile .payment{
+        display: flex;
+        flex-direction: column;
+        gap: 16px;
+        margin-bottom: 24px;
+    }
+
+    body .wrapper .mobile .payment h3 span{
+        text-transform: lowercase;
+    }
+
+    body .wrapper .mobile .payment div{
+        display: flex;
+        justify-content: space-between;
+    }
+
+    body .wrapper .mobile .payment div img{
+        height: 30px;
+        width: 50px;
+    }
+}
+
+
+.wrapper{
+    height: 750px;
+    width: 100vw;
+    padding: 79px 64px 25px 128px;
+    background: #000000;
+    color: #FFFFFF;
+}
+
+.wrapper h3{
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 24px;
+    text-transform: uppercase;
+}
+
+.wrapper .top{
+    display: flex;
+    margin-bottom: 26px;
+}
+
+.wrapper .top .first{
+    width: 57%;
+}
+
+.wrapper .top .first p{
+    font-size: 16px;
+    margin-top: 24px;
+    margin-bottom: 51px;
+    line-height: 19.2px;
+    font-weight: 400;
+}
+
+.wrapper .top .first .email{
+    display: flex;
+    gap: 16px;
+}
+
+.wrapper .top .first .email input{
+    height: 47px;
+    width: 348px;
+    padding-left: 24px;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 21.6px;
+}
+
+.wrapper .top .first .email button {
+    height: 48px;
+    width: 184px;
+    text-transform: uppercase;
+    background: transparent;
+    color: #ffffff7f;
+    border: 1.14px solid #e5e5e54b;
+    border-radius:  5px;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 21.6px;
+    cursor: pointer;
+}
+
+.wrapper .top .contact{
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.wrapper .top .contact p{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 19.2px;
+}
+
+.wrapper .top .contact p:last-child{
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 14.4px;
+}
+
+.wrapper .top .contact div{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.wrapper .top .contact div img:first-child{
+    height: 24px;
+    width: 24px;
+}
+
+.wrapper .bottom{
+    display: flex;
+    margin-top: 56px;
+    margin-bottom: 37px;
+}
+
+.wrapper .bottom .left{
+    width: 57%;
+    display: flex;
+    gap: 210px;
+}
+
+.wrapper .bottom .left div h3{
+    margin-bottom: 18px;
+}
+
+.wrapper .bottom .left div p{
+    margin-bottom: 16px;
+}
+
+.wrapper .bottom .right{
+    display: flex;
+    flex-direction: column;
+    gap: 56px;
+}
+
+.wrapper .bottom .right .social h3{
+    margin-bottom: 24px;
+}
+
+.wrapper .bottom .right .social img{
+    height: 36px;
+    width: 36px;
+    margin-right: 12px;
+}
+
+.wrapper .bottom .right .payment h3 span{
+    text-transform: lowercase;
+}
+
+.wrapper .bottom .right .payment img{
+    height: 35px;
+    width: 56px;
+    margin-right: 8px;
+    margin-top: 16px;
+}
+
+.wrapper .mobile{
+    display: none;
+}
+
+.wrapper .copyright{
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 16.8px;
+    text-align: center;
+}
