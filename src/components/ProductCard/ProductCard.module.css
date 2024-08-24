@@ -1,0 +1,43 @@
+@media only screen and (max-width: 767px){
+    body .wrapper{
+        height: max-content;
+        width: 168px;
+    }
+
+    body .wrapper img{
+        height: 224px;
+        width: 168px;
+    }
+
+}
+
+.wrapper{
+    height: 462px;
+    width: 320px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.wrapper img{
+    height: 397px;
+    width: 320px;
+}
+
+.wrapper div{
+    display: flex;
+    justify-content: space-between;
+}
+
+.wrapper div p{
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 16.8px;
+    color: #888792;
+}
+
+.wrapper div img{
+    height: 24px;
+    width: 24px;
+    cursor: pointer;
+}
